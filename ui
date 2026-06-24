@@ -1,0 +1,8 @@
+| Page            | Features                              |
+| --------------- | ------------------------------------- |
+| Home            | Intro + Connect wallet                |
+| Select Chain    | Choose chain from dropdown            |
+| Upload Contract | Paste Solidity or JSON ABI + bytecode |
+| Deploy          | Enter constructor args, deploy        |
+| Dashboard       | See all deployments by user           |
+| Contract Page   | ABI explorer / call functions         |
