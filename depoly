@@ -1,0 +1,6 @@
+const bytecode = "0x...";
+const abi = [...];
+
+const factory = new ethers.ContractFactory(abi, bytecode, signer);
+const contract = await factory.deploy(...constructorArgs);
+await contract.deployed();
