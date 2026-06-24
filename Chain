@@ -1,0 +1,11 @@
+Multi-Chain Support
+
+Support these chains using RPC endpoints:
+
+Ethereum → https://mainnet.infura.io/v3/YOUR_KEY
+Polygon → https://polygon-rpc.com
+BNB Chain → https://bsc-dataseed.binance.org
+Avalanche → https://api.avax.network/ext/bc/C/rpc
+Base → https://mainnet.base.org
+
+Use ethers.js with custom provider per chain:
