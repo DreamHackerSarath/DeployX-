@@ -1,0 +1,5 @@
+const provider = new ethers.providers.JsonRpcProvider(chainRpcURL);
+const signer = provider.getSigner();
+npm install wagmi viem @rainbow-me/rainbowkit
+import { configureChains, createConfig } from 'wagmi';
+import { mainnet, polygon, bsc, base } from 'wagmi/chains';
