@@ -1,0 +1,11 @@
+. Tech Stack
+Frontend
+React + Next.js
+Ethers.js or viem/wagmi (for wallet & chain interaction)
+RainbowKit / Web3Modal (multi-wallet support)
+Backend (Optional)
+Node.js + Express (for history, user sessions, logs)
+Database: MongoDB / Supabase (track deployments)
+Smart Contracts
+Written in Solidity
+Use Hardhat or Foundry to compile and validate contracts
