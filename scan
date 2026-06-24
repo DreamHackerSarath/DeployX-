@@ -1,0 +1,11 @@
+import { NextRequest, NextResponse } from "next/server";
+
+export async function POST(req: NextRequest) {
+  const { chainId, address, tool, source, metadata } = await req.json();
+  // Wire to your chosen provider:
+  // - Sourcify: https://sourcify.dev/server/verify
+  // - Etherscan-family: /api?module=contract&action=verifysourcecode
+  // - Blockscout: /api?module=contract&action=verify
+  // Include API keys via env vars.
+  return NextResponse.json({ ok: true, message: `Received verify request for ${address} on ${chainId} via ${tool}.` });
+}
