@@ -1,0 +1,13 @@
+Security Tips
+Validate uploaded contracts client-side (via Hardhat/Foundry).
+Restrict contract size and gas limit.
+Verify on explorer post-deploy (via Etherscan APIs).
+🚀 8. Bonus Features (Optional)
+Prebuilt contract templates (ERC20, NFT, DAO)
+One-click verification (Etherscan API)
+Deploy to multiple chains at once
+Gas cost estimator
+✅ Example Open Source Tools
+Thirdweb SDK (already supports contract deployment)
+Gelato Relay (gasless / cross-chain actions)
+Multichain.xyz (bridge integrations)
