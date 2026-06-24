@@ -1,0 +1,10 @@
+. Core Features
+
+Your DApp will allow users to:
+
+Connect wallets (MetaMask, WalletConnect)
+Choose a blockchain network
+Upload/Write/Use a predefined smart contract
+Deploy the contract on the selected chain
+Track contract address and gas cost
+View contract on explorers
