@@ -1,0 +1,13 @@
+import { configureChains, createClient } from 'wagmi';
+import { publicProvider } from 'wagmi/providers/public';
+import { mainnet, polygon } from 'wagmi/chains';
+
+const { chains, provider } = configureChains(
+  [mainnet, polygon],
+  [publicProvider()]
+);
+
+const client = createClient({
+  autoConnect: true,
+  provider,
+});
